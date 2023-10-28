@@ -24,7 +24,7 @@ mod tests {
     use crate::merge_sorted_array::merge;
 
     #[test]
-    fn case_1 () {
+    fn case_1() {
         let mut nums1 = vec![1, 2, 3, 0, 0, 0];
         let m = 3;
         let mut nums2 = vec![2, 5, 6];
@@ -34,7 +34,7 @@ mod tests {
     }
 
     #[test]
-    fn case_2 () {
+    fn case_2() {
         let mut nums1 = vec![1];
         let m = 1;
         let mut nums2 = vec![];
@@ -44,7 +44,7 @@ mod tests {
     }
 
     #[test]
-    fn case_3 () {
+    fn case_3() {
         let mut nums1 = vec![0];
         let m = 0;
         let mut nums2 = vec![1];
